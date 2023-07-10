@@ -15,20 +15,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var reverseBackground: UIView!
     @IBOutlet weak var playPauseButton: UIButton!
     @IBOutlet weak var reverseButton: UIButton!
-    
     @IBOutlet weak var forwardButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       /* reverseBackground.layer.cornerRadius = reverseBackground.frame.height / 2
+      /*  reverseBackground.layer.cornerRadius = reverseBackground.frame.height / 2
         reverseBackground.clipsToBounds = true
         
         playPauseBackground.layer.cornerRadius = playPauseBackground.frame.height / 2
         playPauseBackground.clipsToBounds = true
         
-       forwardBackground.layer.cornerRadius = forwardBackground.frame.height / 2
-       forwardBackground.clipsToBounds = true */
+        forwardBackground.layer.cornerRadius = forwardBackground.frame.height / 2
+        forwardBackground.clipsToBounds = true */
     }
 
 

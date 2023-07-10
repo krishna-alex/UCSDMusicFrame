@@ -17,28 +17,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EXx-nd-dnC">
-                                <rect key="frame" x="16" y="72" width="361" height="361"/>
+                                <rect key="frame" x="16" y="79" width="361" height="361"/>
                                 <color key="backgroundColor" red="0.96611279249191284" green="0.47830230354126585" blue="0.44843738216783025" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="EXx-nd-dnC" secondAttribute="height" multiplier="1:1" id="7cs-oT-a2s"/>
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdT-vu-54r">
-                                <rect key="frame" x="165.66666666666666" y="464.66666666666669" width="44.666666666666657" height="44.333333333333314"/>
+                                <rect key="frame" x="174" y="492.66666666666669" width="44.666666666666657" height="44.333333333333314"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gdT-vu-54r" secondAttribute="height" multiplier="1:1" id="Hhg-Op-Rvi"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdE-dc-jkh">
-                                <rect key="frame" x="259.66666666666669" y="464.66666666666669" width="44.666666666666686" height="44.333333333333314"/>
+                                <rect key="frame" x="288.33333333333331" y="492.66666666666669" width="44.666666666666686" height="44.333333333333314"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="gdE-dc-jkh" secondAttribute="height" multiplier="1:1" id="dFR-Lz-ra5"/>
                                 </constraints>
                             </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" spacing="59" translatesAutoresizingMaskIntoConstraints="NO" id="bCB-Tq-GjH">
-                                <rect key="frame" x="72.000000000000014" y="472" width="232.33333333333337" height="29.666666666666686"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="bCB-Tq-GjH">
+                                <rect key="frame" x="60" y="500.00000000000006" width="273" height="29.666666666666686"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ov-vs-itd">
                                         <rect key="frame" x="0.0" y="0.0" width="44.333333333333336" height="29.666666666666668"/>
@@ -48,7 +48,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsy-tm-bl2">
-                                        <rect key="frame" x="103.33333333333334" y="0.0" width="25.333333333333343" height="29.666666666666668"/>
+                                        <rect key="frame" x="123.66666666666664" y="0.0" width="25.333333333333329" height="29.666666666666668"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="play.fill" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -56,7 +56,7 @@
                                         <state key="selected" image="pause.fill" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJT-PV-qyx">
-                                        <rect key="frame" x="187.66666666666669" y="0.0" width="44.666666666666657" height="29.666666666666668"/>
+                                        <rect key="frame" x="228.33333333333331" y="0.0" width="44.666666666666686" height="29.666666666666668"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="forward.fill" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
@@ -65,7 +65,7 @@
                                 </subviews>
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rwf-5I-GeT">
-                                <rect key="frame" x="72" y="464.66666666666669" width="44.333333333333343" height="44.333333333333314"/>
+                                <rect key="frame" x="60" y="492.66666666666669" width="44.333333333333343" height="44.333333333333314"/>
                                 <color key="backgroundColor" systemColor="systemGray2Color"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Rwf-5I-GeT" secondAttribute="height" multiplier="1:1" id="C0v-7f-jSb"/>
@@ -76,20 +76,20 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="gdE-dc-jkh" firstAttribute="height" secondItem="RJT-PV-qyx" secondAttribute="height" multiplier="1.5" id="0QT-F8-hLQ"/>
-                            <constraint firstItem="Rwf-5I-GeT" firstAttribute="centerX" secondItem="4Ov-vs-itd" secondAttribute="centerX" id="2IU-nG-fdj"/>
-                            <constraint firstItem="Rwf-5I-GeT" firstAttribute="centerY" secondItem="4Ov-vs-itd" secondAttribute="centerY" id="6xf-3C-WB0"/>
-                            <constraint firstItem="bCB-Tq-GjH" firstAttribute="top" secondItem="EXx-nd-dnC" secondAttribute="bottom" constant="39" id="9Qg-iX-3Xa"/>
+                            <constraint firstItem="Rwf-5I-GeT" firstAttribute="centerX" secondItem="4Ov-vs-itd" secondAttribute="centerX" id="1Pv-E7-qZs"/>
+                            <constraint firstItem="bCB-Tq-GjH" firstAttribute="top" secondItem="EXx-nd-dnC" secondAttribute="bottom" constant="60" id="9Qg-iX-3Xa"/>
                             <constraint firstItem="gdE-dc-jkh" firstAttribute="centerX" secondItem="RJT-PV-qyx" secondAttribute="centerX" id="Bg3-nc-qJz"/>
+                            <constraint firstItem="Rwf-5I-GeT" firstAttribute="centerY" secondItem="4Ov-vs-itd" secondAttribute="centerY" id="CbZ-q2-MxF"/>
                             <constraint firstItem="gdT-vu-54r" firstAttribute="height" secondItem="jsy-tm-bl2" secondAttribute="height" multiplier="1.5" id="Qob-Jh-9tN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EXx-nd-dnC" secondAttribute="trailing" constant="16" id="RVc-di-hFy"/>
                             <constraint firstItem="gdE-dc-jkh" firstAttribute="centerY" secondItem="RJT-PV-qyx" secondAttribute="centerY" id="Vxm-Eh-ckf"/>
-                            <constraint firstItem="bCB-Tq-GjH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="72" id="W2o-mx-cLH"/>
+                            <constraint firstItem="bCB-Tq-GjH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="W2o-mx-cLH"/>
                             <constraint firstItem="gdT-vu-54r" firstAttribute="centerX" secondItem="jsy-tm-bl2" secondAttribute="centerX" id="bAh-vu-NQO"/>
                             <constraint firstItem="EXx-nd-dnC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="hcB-vy-OCF"/>
-                            <constraint firstItem="EXx-nd-dnC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="o0g-HE-cqK"/>
+                            <constraint firstItem="EXx-nd-dnC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="o0g-HE-cqK"/>
                             <constraint firstItem="gdT-vu-54r" firstAttribute="centerY" secondItem="jsy-tm-bl2" secondAttribute="centerY" id="seI-Td-LVI"/>
-                            <constraint firstItem="Rwf-5I-GeT" firstAttribute="height" secondItem="4Ov-vs-itd" secondAttribute="height" multiplier="1.5" id="yPA-5C-ubJ"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bCB-Tq-GjH" secondAttribute="trailing" constant="88.670000000000002" id="yWs-0Z-HHW"/>
+                            <constraint firstItem="Rwf-5I-GeT" firstAttribute="height" secondItem="4Ov-vs-itd" secondAttribute="height" multiplier="1.5" id="xTy-jz-NXb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bCB-Tq-GjH" secondAttribute="trailing" constant="60" id="yWs-0Z-HHW"/>
                         </constraints>
                     </view>
                     <connections>
