@@ -36,7 +36,6 @@ class ViewController: UIViewController {
     
     @IBAction func playPauseButtonTapped(_ sender: UIButton) {
         
-        print("hello inside playpausetapped")
         isPlaying.toggle()
         
         if isPlaying {
