@@ -53,6 +53,10 @@
                                         <state key="normal" image="backward.fill" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
                                         </state>
+                                        <connections>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="oE9-BA-uoA"/>
+                                            <action selector="touchedUPInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EyQ-Rq-jlk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jsy-tm-bl2">
                                         <rect key="frame" x="123.66666666666664" y="0.0" width="25.333333333333329" height="29.666666666666668"/>
@@ -61,6 +65,11 @@
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
                                         </state>
                                         <state key="selected" image="pause.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="playPauseButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jse-GO-yat"/>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="6B6-Ba-t2v"/>
+                                            <action selector="touchedUPInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aH6-u2-peS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJT-PV-qyx">
                                         <rect key="frame" x="228.33333333333331" y="0.0" width="44.666666666666686" height="29.666666666666668"/>
@@ -68,6 +77,10 @@
                                         <state key="normal" image="forward.fill" catalog="system">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="30"/>
                                         </state>
+                                        <connections>
+                                            <action selector="touchedDown:" destination="BYZ-38-t0r" eventType="touchDown" id="qjt-Qj-h6C"/>
+                                            <action selector="touchedUPInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Er-ED-RGh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
